@@ -18,7 +18,7 @@ const AllOrder = ({order}) => {
 	//update
 
 	const handleActive = id => {
-		const url = `http://localhost:5000/orders/${id}`;
+		const url = `https://frozen-oasis-55773.herokuapp.com/orders/${id}`;
 
 		fetch(url, {
 			method : 'PUT'
@@ -37,7 +37,7 @@ const AllOrder = ({order}) => {
 	//Delete an user
 
 	const handleDelete = id => {
-		const url = `http://localhost:5000/orders/${id}`;
+		const url = `https://frozen-oasis-55773.herokuapp.com/orders/${id}`;
 
 		const confirm = window.confirm("Are you sure to delete?");
 

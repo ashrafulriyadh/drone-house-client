@@ -9,7 +9,7 @@ const ManageProduct = () => {
 	//handle delete button
 
 	const handleDelete = id => {
-		const url = `http://localhost:5000/products/${id}`;
+		const url = `https://frozen-oasis-55773.herokuapp.com/products/${id}`;
 
 		const confirm = window.confirm("Are you sure to delete?");
 

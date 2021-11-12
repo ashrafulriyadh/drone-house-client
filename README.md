@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Drone House
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project live link : [Drone House Website](https://drone-house.web.app/).
 
-## Available Scripts
+## Website Details :
 
-In the project directory, you can run:
+This is a Drone Selling website. In this website , you find this features:
 
-### `npm start`
+### `Products`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* We provide different kind of drones
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* We also provide best quality of product in the world
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Login & register`
 
-### `npm run build`
+* Any one can login and register from website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Also there's a google sign in Option
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Registered person's information will be added in database
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `User Panel`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Users have different ability from Dashboard
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Users can see their order list in our website
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* He/She also can delete order
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* User can also can pay and give review to specific product from dashboard
 
-## Learn More
+* It is a private route
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* User can log Out From dashboard
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Admin Panel`
 
-### Code Splitting
+* Admin can view all orders from the website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Admin can also delete and update status of order from Dashboard
 
-### Analyzing the Bundle Size
+* Admin can add Products to our website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Admin can manage product from dashboard
 
-### Making a Progressive Web App
+* also they can delete Products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Admin can make another user to admin
 
-### Advanced Configuration
+### `Routes`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Normal Route
 
-### Deployment
+* Private Route
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Admin Route
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Reviews and FAQ`
+
+* Also testimonial of our reviewer's voice
+
+* There is also some common FAQ's answer
+

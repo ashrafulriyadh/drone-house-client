@@ -5,7 +5,7 @@ const useOrder = () => {
 	const [orders, setOrders] = useState([]);
 
 	//fetch my order api
-	const url = `http://localhost:5000/orders`;
+	const url = `https://frozen-oasis-55773.herokuapp.com/orders`;
 
 	useEffect(() => {
 		fetch(url)

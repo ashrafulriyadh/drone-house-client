@@ -17,7 +17,7 @@ const Purchase = () => {
 
 	//handle on submit
 	const onSubmit = data => {
-		axios.post('http://localhost:5000/orders', data)
+		axios.post('https://frozen-oasis-55773.herokuapp.com/orders', data)
 		.then(res => {
 			if (res.data.insertedId) {
 				alert('added successfully');

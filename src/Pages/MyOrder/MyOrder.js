@@ -8,7 +8,7 @@ const MyOrder = () => {
 	const {email} = useParams();
 
 	//fetch my order api
-	const url = `http://localhost:5000/orders/${email}`;
+	const url = `https://frozen-oasis-55773.herokuapp.com/orders/${email}`;
 
 	useEffect(() => {
 		fetch(url)
@@ -21,7 +21,7 @@ const MyOrder = () => {
 	//handle delete button
 
 	const handleDelete = id => {
-		const url = `http://localhost:5000/orders/${id}`;
+		const url = `https://frozen-oasis-55773.herokuapp.com/orders/${id}`;
 
 		const confirm = window.confirm("Are you sure to delete?");
 
