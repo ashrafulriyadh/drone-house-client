@@ -20,7 +20,7 @@ const AddProduct = () => {
 	return (
 		<div>
 			<div className="container-fluid">
-			<div className="container-fluid ">
+			<div className="container-fluid">
 				<h1 className="text-center mt-5 ">
 					Add a new Product
 				</h1>

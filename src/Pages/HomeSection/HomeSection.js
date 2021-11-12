@@ -9,7 +9,7 @@ const HomeSection = () => {
 
 
 			<div className="row">
-				<img src="https://i.ibb.co/gFnY4Pz/purepng-com-modern-black-spying-dronedronecameraflyingtechnologyspyingaction-211519337821dv4by.png" alt="" />
+				<img src="https://i.ibb.co/L0HNtnD/SpxP.gif" alt="" />
 			</div>
 
 			<div className="row">

@@ -70,7 +70,7 @@ const Home = () => {
 				<div className="container-fluid my-5 pt-5">
 					<div className="row bg-dark">
 						<div className="col-12 col-md-7">
-							<img className="img-fluid" src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHJvbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+							<img className="img-fluid" src="https://i.ibb.co/j6TZLYR/photo-1473968512647-3e447244af8f-ixid-Mnwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8-ZHJvbm-V8-ZW58-MHx8-MHx8-i.jpg" alt="" />
 						</div>
 						<div className="col-12 col-md-5 text-center d-flex align-items-center text-white">
 							<div>
