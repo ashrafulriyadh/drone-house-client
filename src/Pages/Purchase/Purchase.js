@@ -5,12 +5,16 @@ import { useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 import Banner from '../Shared/Banner/Banner';
 import './Purchase.css';
+import useProducts from '../../hooks/useProducts';
 
 const Purchase = () => {
 
 	const { name } = useParams();
 
 	const {user} = useAuth();
+
+	const [products]=useProducts();
+    const product =products.find(item=>item.name===name);
 
 	//react hook from
 	const {register, handleSubmit, reset} = useForm();
@@ -31,6 +35,10 @@ const Purchase = () => {
 			<p className="banner-heading text-center">Purchase</p>
 
 			<div className="container order-form mb-5">
+			<h4 className="text-center pt-4">Purchasing : {product?.name}</h4>
+			<div className="d-flex justify-content-center">
+				<img className="img-fluid" src={product?.img} width="200" alt="" />
+			</div>
 			<div className="row justify-content-center ">
 
 				<div className="col-8 col-md-5 ">

@@ -4,7 +4,7 @@ import './Products.css';
 
 const Products = ({product}) => {
 
-	const {name, img, description,price} = product;
+	const {name, img, description,price,} = product;
 	return (
 		<div>
 			<div className="col mb-4">

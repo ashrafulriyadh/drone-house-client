@@ -29,7 +29,7 @@ const AllOrder = ({order}) => {
 		})
 
 		alert('Order Confirmed');
-		history.push('/home');
+		history.push('/dashboard');
 
 		setDouble(true);
 	}
@@ -53,7 +53,7 @@ const AllOrder = ({order}) => {
 					const remainingOrder = orders.filter(order => order._id !== id);
 					setOrders(remainingOrder);
 
-					history.push('/home');
+					history.push('/dashboard');
 				}
 			})
 		}
