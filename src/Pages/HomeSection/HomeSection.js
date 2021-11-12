@@ -1,10 +1,11 @@
 import React from 'react';
+import 'animate.css';
 
 const HomeSection = () => {
 	return (
 		<div>
 			<div className="container product-container">
-			<h1 className="text-center fw-bold text-uppercase">Introducing</h1>
+			<h1 className="text-center fw-bold text-uppercase animate__animated animate__pulse animate__delay-2s">Introducing</h1>
 			<p className="text-center text-muted text-uppercase">A new era of Drones</p>
 
 

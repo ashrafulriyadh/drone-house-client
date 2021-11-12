@@ -8,6 +8,7 @@ import Review from '../Review/Review';
 import HomeSection from '../HomeSection/HomeSection';
 import Contact from '../Contact/Contact';
 import useAuth from '../../hooks/useAuth';
+import 'animate.css';
 
 
 
@@ -26,7 +27,7 @@ const Home = () => {
 			<div className="home-banner"></div>
 			<Header></Header>
 			<div className="container">
-				<h1 className="text-center home-banner-heading animate__animated animate__fadeInDown animate__delay-2s">Fly Like A Bird</h1>
+				<h1 className="text-center home-banner-heading animate__animated animate__fadeInDown">Fly Like A Bird</h1>
 			</div>
 			<div className="container banner-bottom-heading text-center">
 			<h1 className=" text-uppercase ">It's still magic even if you know <br /> how its done</h1>

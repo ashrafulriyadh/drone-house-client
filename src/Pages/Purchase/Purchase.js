@@ -30,7 +30,7 @@ const Purchase = () => {
 			<Banner></Banner>
 			<p className="banner-heading text-center">Purchase</p>
 
-			<div className="container order-form">
+			<div className="container order-form mb-5">
 			<div className="row justify-content-center ">
 
 				<div className="col-8 col-md-5 ">
