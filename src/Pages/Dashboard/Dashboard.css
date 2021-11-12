@@ -1,0 +1,21 @@
+.sidenav-container {
+	margin-top: 61px;
+}
+.custom-bg-color {
+	background-color: #1e272e;
+}
+.sidenav-font {
+	font-size: 22px;
+	margin-top: 20px;
+}
+@media (max-width: 576px) {
+
+	.sidenav-container {
+		margin-top: 35px;
+	}
+	.sidenav-font {
+		font-size: 12px;
+		margin: 5px;
+	}
+
+ }

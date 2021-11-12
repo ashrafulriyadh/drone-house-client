@@ -1,0 +1,50 @@
+.home-banner{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/banner/banner5.jpg');
+	height: 100vh;
+	position: absolute;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+.home-banner-heading{
+	position: relative;
+	margin-top: 100px;
+	font-size: 60px;
+	font-weight: 600;
+	color: aliceblue;
+
+}
+.banner-bottom-heading {
+	position: relative;
+	color: aliceblue;
+	margin-top: 350px;
+}
+.product-container{
+	margin-top: 250px;
+}
+#review-card{
+	width: 80px;
+	height: 60px;
+}
+
+@media (max-width: 576px) {
+
+	.home-banner-heading{
+		position: relative;
+		margin-top: 50px;
+		font-size: 60px;
+		font-weight: 800;
+		color: aliceblue;
+	}
+	.banner-bottom-heading {
+		position: relative;
+		color: aliceblue;
+		margin-top: 180px;
+	}
+	#review-card{
+		width: 80px;
+		height: 60px;
+	}
+
+ }

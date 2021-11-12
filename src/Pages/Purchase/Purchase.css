@@ -1,0 +1,15 @@
+.order-form {
+	padding-bottom: 20px;
+	width: 800px;
+	box-shadow: rgba(35, 85, 122, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	margin-top: 80px;
+}
+
+ /* responsive for mobile device */
+@media (max-width: 512px) {
+	.order-form {
+		width: 80vw;
+		margin-top: 50px;
+		padding-bottom: 20px;
+	}
+ }

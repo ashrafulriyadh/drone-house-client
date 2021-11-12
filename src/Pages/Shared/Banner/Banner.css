@@ -1,0 +1,23 @@
+.banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.671)), url('../../../images/banner/banner.jpg');
+	height: 30vh;
+	width: 100%;
+	position: absolute;
+	background-position: center;
+}
+.banner-heading {
+	position: relative;
+	margin-top: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	color: aliceblue;
+}
+
+@media (max-width: 576px) {
+
+	.banner-heading {
+		margin-top: 10px;
+		position: relative;
+	}
+
+ }
