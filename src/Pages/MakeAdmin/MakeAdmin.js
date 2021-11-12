@@ -9,6 +9,7 @@ const MakeAdmin = () => {
         setEmail(e.target.value);
     }
 
+	//handle submit
 	const handleAdminSubmit = e => {
         const user = { email };
         fetch('https://frozen-oasis-55773.herokuapp.com/users/admin', {

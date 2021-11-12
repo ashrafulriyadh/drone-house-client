@@ -101,7 +101,11 @@ const Dashboard = () => {
             </div>
         </div>
         <div className="col-8 col-md-10 py-3">
-		<Switch>
+
+
+
+        {/* nested Routing */}
+        <Switch>
         <PrivateRoute exact path={path}>
 				<DashboardHome></DashboardHome>
         </PrivateRoute>

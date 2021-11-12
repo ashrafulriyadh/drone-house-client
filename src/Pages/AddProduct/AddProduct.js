@@ -5,6 +5,7 @@ import './AddProduct.css';
 
 const AddProduct = () => {
 
+	//react hook form
 	const {register, handleSubmit, reset} = useForm();
 
 	const onSubmit = data => {

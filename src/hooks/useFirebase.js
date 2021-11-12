@@ -14,11 +14,13 @@ const useFirebase = () => {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
+    //google sign in
     const signInUsingGoogle = () => {
         return signInWithPopup(auth, googleProvider)
             .finally(() => { setLoading(false) });
     }
 
+        //create user
 	const registerUser = (email, password, name, history) => {
         setLoading(true);
         createUserWithEmailAndPassword(auth, email, password)
@@ -43,6 +45,8 @@ const useFirebase = () => {
             .finally(() => setLoading(false));
     }
 
+    //login user
+
 	const loginUser = (email, password, location, history) => {
         setLoading(true);
         signInWithEmailAndPassword(auth, email, password)
@@ -57,6 +61,7 @@ const useFirebase = () => {
             .finally(() => setLoading(false));
     }
 
+        //logout
     const logOut = () => {
         setLoading(true);
         signOut(auth)
@@ -80,6 +85,7 @@ const useFirebase = () => {
         return () => unsubscribe;
     }, [auth]);
 
+    //fetch data by dynamic email
     useEffect(() => {
         fetch(`https://frozen-oasis-55773.herokuapp.com/users/${user.email}`)
             .then(res => res.json())

@@ -11,6 +11,7 @@ const Register = () => {
 
 	const {registerUser,loading,authError,user} = useAuth();
 
+	//handle input fields
 	const handleOnBlur = e => {
         const field = e.target.name;
         const value = e.target.value;
@@ -19,6 +20,7 @@ const Register = () => {
         setLoginData(newLoginData);
     }
 
+	//handle submit
 	const handleLoginSubmit = e => {
 
         registerUser(loginData.email, loginData.password, loginData.name, history);
