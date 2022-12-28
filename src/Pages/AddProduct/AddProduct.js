@@ -10,7 +10,7 @@ const AddProduct = () => {
 
 	const onSubmit = data => {
 
-        axios.post('https://frozen-oasis-55773.herokuapp.com/products', data)
+		axios.post('https://drone-house-server.vercel.app/products', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

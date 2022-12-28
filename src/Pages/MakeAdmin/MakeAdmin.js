@@ -12,7 +12,7 @@ const MakeAdmin = () => {
 	//handle submit
 	const handleAdminSubmit = e => {
         const user = { email };
-        fetch('https://frozen-oasis-55773.herokuapp.com/users/admin', {
+        fetch('https://drone-house-server.vercel.app/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

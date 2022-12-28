@@ -5,7 +5,7 @@ const useOrder = () => {
 	const [orders, setOrders] = useState([]);
 
 	//fetch my order api
-	const url = `https://frozen-oasis-55773.herokuapp.com/orders`;
+	const url = `https://drone-house-server.vercel.app/orders`;
 
 	useEffect(() => {
 		fetch(url)

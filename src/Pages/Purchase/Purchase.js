@@ -21,7 +21,7 @@ const Purchase = () => {
 
 	//handle on submit
 	const onSubmit = data => {
-		axios.post('https://frozen-oasis-55773.herokuapp.com/orders', data)
+		axios.post('https://drone-house-server.vercel.app/orders', data)
 		.then(res => {
 			if (res.data.insertedId) {
 				alert('added successfully');
@@ -37,7 +37,7 @@ const Purchase = () => {
 			<div className="container order-form mb-5">
 			<h4 className="text-center pt-4">Purchasing : {product?.name}</h4>
 			<div className="d-flex justify-content-center">
-				<img className="img-fluid" src={product?.img} width="200" alt="" />
+				<img className="img-fluid hvr-grow" src={product?.img} width="200" alt="" />
 			</div>
 			<div className="row justify-content-center ">
 
