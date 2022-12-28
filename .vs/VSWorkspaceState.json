@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\hooks"
+    "\\src\\hooks",
+    "\\src\\Pages\\Admin\\AdminRoute"
   ],
-  "SelectedNode": "\\src\\hooks\\useFirebase.js",
+  "SelectedNode": "\\src\\hooks\\useProducts.js",
   "PreviewInSolutionExplorer": false
 }
