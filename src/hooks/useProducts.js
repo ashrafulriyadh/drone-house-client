@@ -5,7 +5,7 @@ const useProducts = () => {
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
-		fetch('https://drone-house-server.vercel.app/products')
+		fetch('https://dronehouseserver.onrender.com/products')
 		.then(res=> res.json())
 		.then(data => setProducts(data));
 	},[]);

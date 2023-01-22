@@ -8,7 +8,7 @@ const MyOrder = () => {
 	const {email} = useParams();
 
 	//fetch my order api
-	const url = `https://drone-house-server.vercel.app/orders/${email}`;
+	const url = `https://dronehouseserver.onrender.com/orders/${email}`;
 
 	useEffect(() => {
 		fetch(url)
@@ -21,7 +21,7 @@ const MyOrder = () => {
 	//handle delete button
 
 	const handleDelete = id => {
-		const url = `https://drone-house-server.vercel.app/orders/${id}`;
+		const url = `https://dronehouseserver.onrender.com/orders/${id}`;
 
 		const confirm = window.confirm("Are you sure to delete?");
 

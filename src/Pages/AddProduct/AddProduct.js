@@ -10,7 +10,7 @@ const AddProduct = () => {
 
 	const onSubmit = data => {
 
-		axios.post('https://drone-house-server.vercel.app/products', data)
+		axios.post('https://dronehouseserver.onrender.com/products', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

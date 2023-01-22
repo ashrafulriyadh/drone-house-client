@@ -12,7 +12,7 @@ const MakeAdmin = () => {
 	//handle submit
 	const handleAdminSubmit = e => {
         const user = { email };
-        fetch('https://drone-house-server.vercel.app/users/admin', {
+        fetch('https://dronehouseserver.onrender.com/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

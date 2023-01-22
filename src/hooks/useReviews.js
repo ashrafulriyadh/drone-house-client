@@ -5,7 +5,7 @@ const useReviews = () => {
 	const [reviews, setReviews] = useState([]);
 
 	useEffect(() => {
-		fetch('https://drone-house-server.vercel.app/reviews')
+		fetch('https://dronehouseserver.onrender.com/reviews')
 		.then(res=> res.json())
 		.then(data => setReviews(data));
 	},[]);

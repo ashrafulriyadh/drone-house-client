@@ -5,7 +5,7 @@ const useOrder = () => {
 	const [orders, setOrders] = useState([]);
 
 	//fetch my order api
-	const url = `https://drone-house-server.vercel.app/orders`;
+	const url = `https://dronehouseserver.onrender.com/orders`;
 
 	useEffect(() => {
 		fetch(url)

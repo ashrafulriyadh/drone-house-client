@@ -9,7 +9,7 @@ const ManageProduct = () => {
 	//handle delete button
 
 	const handleDelete = id => {
-		const url = `https://drone-house-server.vercel.app/products/${id}`;
+		const url = `https://dronehouseserver.onrender.com/products/${id}`;
 
 		const confirm = window.confirm("Are you sure to delete?");
 

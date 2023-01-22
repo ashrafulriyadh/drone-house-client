@@ -21,7 +21,7 @@ const Purchase = () => {
 
 	//handle on submit
 	const onSubmit = data => {
-		axios.post('https://drone-house-server.vercel.app/orders', data)
+		axios.post('https://dronehouseserver.onrender.com/orders', data)
 		.then(res => {
 			if (res.data.insertedId) {
 				alert('added successfully');

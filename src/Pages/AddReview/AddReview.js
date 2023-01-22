@@ -11,7 +11,7 @@ const AddReview = () => {
 
 	const onSubmit = data => {
 
-		axios.post('https://drone-house-server.vercel.app/reviews', data)
+		axios.post('https://dronehouseserver.onrender.com/reviews', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

@@ -87,7 +87,7 @@ const useFirebase = () => {
 
     //fetch data by dynamic email
     useEffect(() => {
-        fetch(`https://drone-house-server.vercel.app/users/${user.email}`)
+        fetch(`https://dronehouseserver.onrender.com/users/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin))
     }, [user.email]);
@@ -96,7 +96,7 @@ const useFirebase = () => {
     //save user
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName };
-        fetch('https://drone-house-server.vercel.app/users', {
+        fetch('https://dronehouseserver.onrender.com/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'
